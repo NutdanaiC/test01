@@ -1,0 +1,13 @@
+{
+  "name": "safety-patrol",
+  "version": "1.0.0",
+  "description": "Safety Patrol Application - ระบบจัดการความเสี่ยงด้านความปลอดภัย",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "start:backend": "npm start --prefix backend",
+    "start:frontend": "npm start --prefix frontend",
+    "test": "npm test --prefix backend",
+    "test:coverage": "npm run test --prefix backend -- --coverage"
+  }
+}
